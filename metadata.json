@@ -1,0 +1,7 @@
+{
+  "name": "Generations Salon",
+  "description": "A premium, elegant website for Generations Salon, featuring AI-powered service recommendations, appointment booking, and a luxury beauty experience.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
