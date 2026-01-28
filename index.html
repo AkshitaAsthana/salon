@@ -4,7 +4,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Generations Salon - Premium Beauty Parlour</title>
+    <title>Generations Salon - Premium Beauty Parlour in Stuart, FL</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Generations Salon is a 5.0-rated premium beauty parlour in Stuart, FL. Offering precision haircuts, balayage, facials, and bridal styling. Book your experience today." />
+    <meta name="keywords" content="Salon, Stuart FL, Haircut, Balayage, Beauty Parlour, Generations Salon, Hair Stylist, Facial" />
+    <meta name="author" content="Generations Salon" />
+    <meta name="theme-color" content="#D4AF37" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://generations-salon.netlify.app/" />
+    <meta property="og:title" content="Generations Salon - Premium Beauty Parlour" />
+    <meta property="og:description" content="Experience the art of hair and beauty at Generations Salon. Rated 5.0 in Stuart, FL." />
+    <meta property="og:image" content="https://picsum.photos/seed/salon-hero/1200/630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Generations Salon - Premium Beauty Parlour" />
+    <meta property="twitter:description" content="Experience the art of hair and beauty at Generations Salon. Rated 5.0 in Stuart, FL." />
+    <meta property="twitter:image" content="https://picsum.photos/seed/salon-hero/1200/630" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
@@ -36,19 +56,24 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #b8952d;
       }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
-  }
-}
-</script>
-</head>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.4",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+      }
+    }
+    </script>
+    <!-- Explicit module entry point for production environments -->
+    <script type="module" src="./index.tsx"></script>
+  </head>
   <body>
     <div id="root"></div>
   </body>
